@@ -13,15 +13,15 @@ const SignIn = () => {
             <div className="mb-4">
               <label
                 className="block text-n-8 text-sm font-bold mb-2"
-                htmlFor="username"
+                htmlFor="email"
               >
-                Username
+                Email
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-n-8 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
-                type="text"
-                placeholder="Username"
+                id="email"
+                type="email"
+                placeholder="Email"
               />
             </div>
             <div className="mb-6">
@@ -38,7 +38,7 @@ const SignIn = () => {
                 placeholder="********"
               />
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between mb-4">
               <Button className="px-4 py-2" href="#">
                 Sign In
               </Button>
@@ -48,6 +48,15 @@ const SignIn = () => {
               >
                 Forgot Password?
               </a>
+            </div>
+            <div className="flex items-center justify-center">
+              <p className="text-n-8">Or sign in using:</p>
+              <Button className="mx-2" href="#">
+                Google
+              </Button>
+              <Button className="mx-2" href="#">
+                Facebook
+              </Button>
             </div>
           </form>
         </div>
