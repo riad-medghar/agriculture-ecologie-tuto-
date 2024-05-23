@@ -43,13 +43,16 @@ const Forum = () => (
                   ))}
                 </div>
                 <Button className="mt-8" href="/forum">
-                  Join the Discussion
+                  Rejoindre la discussion
                 </Button>
               </div>
             </div>
           </div>
         ))}
       </div>
+      <Button className="mt-8" href="/forum">
+        cree un discussion
+      </Button>
     </div>
   </Section>
 );

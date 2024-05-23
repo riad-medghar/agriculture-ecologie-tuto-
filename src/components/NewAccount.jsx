@@ -7,7 +7,7 @@ const SignUp = () => {
   return (
     <Section className="overflow-hidden" id="sign-up">
       <div className="container md:pb-10">
-        <Heading tag="Join Us!" title="Create a New Account" />
+        <Heading tag="Rejoignez-nous !" title="Créer un nouveau compte" />
         <div className="flex flex-col items-center mt-12 md:mt-15 xl:mt-20">
           <form className="w-full max-w-sm">
             <div className="mb-4">
@@ -15,13 +15,13 @@ const SignUp = () => {
                 className="block text-n-8 text-sm font-bold mb-2"
                 htmlFor="username"
               >
-                Username
+                Nom d'utilisateur
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-n-8 leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
-                placeholder="Username"
+                placeholder="Nom d'utilisateur"
               />
             </div>
             <div className="mb-4">
@@ -29,13 +29,13 @@ const SignUp = () => {
                 className="block text-n-8 text-sm font-bold mb-2"
                 htmlFor="email"
               >
-                Email
+                E-mail
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-n-8 leading-tight focus:outline-none focus:shadow-outline"
                 id="email"
                 type="email"
-                placeholder="Email"
+                placeholder="E-mail"
               />
             </div>
             <div className="mb-6">
@@ -43,7 +43,7 @@ const SignUp = () => {
                 className="block text-n-8 text-sm font-bold mb-2"
                 htmlFor="password"
               >
-                Password
+                Mot de passe
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-n-8 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -57,7 +57,7 @@ const SignUp = () => {
                 className="block text-n-8 text-sm font-bold mb-2"
                 htmlFor="confirmPassword"
               >
-                Confirm Password
+                Confirmer le mot de passe
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-n-8 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -68,11 +68,11 @@ const SignUp = () => {
             </div>
             <div className="flex items-center justify-between mb-4">
               <Button className="px-4 py-2" href="#">
-                Create Account
+                Créer un compte
               </Button>
             </div>
             <div className="flex items-center justify-center">
-              <p className="text-n-8">Or sign up using:</p>
+              <p className="text-n-8">Ou inscrivez-vous en utilisant :</p>
               <Button className="mx-2" href="#">
                 Google
               </Button>

@@ -8,7 +8,7 @@ import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 
 const Header = () => {
-  const { pathname } = useLocation(); // Correct destructuring
+  const { pathname } = useLocation(); // Destructuration correcte
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
+      className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
@@ -40,7 +40,7 @@ const Header = () => {
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          }  fixed top-[5rem] left-0
+          } fixed top-[5rem] left-0
           right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto
           lg:bg-transparent`}
         >
@@ -68,13 +68,13 @@ const Header = () => {
           to="/newaccount"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New account
+          Nouveau compte
         </Link>
-        <Button className="hidden lg:flex " href="/signin">
-          Sign in
+        <Button className="hidden lg:flex" href="/signin">
+          Connexion
         </Button>
         <Button
-          className="ml-auto lg:hidden "
+          className="ml-auto lg:hidden"
           px="px-3"
           onClick={toggleNavigation}
         >

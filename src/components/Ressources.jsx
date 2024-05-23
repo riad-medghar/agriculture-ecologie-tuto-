@@ -9,8 +9,8 @@ const Resources = () => (
   <Section className="overflow-hidden" id="resources">
     <div className="container md:pb-10">
       <Heading
-        tag="Learn More!"
-        title="Documents and Tutorials on Ecological Agriculture"
+        tag="En savoir plus !"
+        title="Documents et tutoriels sur l'agriculture écologique"
       />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
@@ -36,8 +36,8 @@ const Resources = () => (
                     className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
                   >
                     {item.type === "document"
-                      ? "View Document"
-                      : "View Tutorial"}
+                      ? "Voir le document"
+                      : "Voir le tutoriel"}
                   </a>
                 </div>
               </div>
@@ -46,9 +46,7 @@ const Resources = () => (
         })}
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/resources">More Resources</Button>
-      </div>
+      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20"></div>
     </div>
   </Section>
 );

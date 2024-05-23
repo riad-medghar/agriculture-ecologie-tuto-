@@ -47,22 +47,12 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "/#features",
-  },
-  {
-    id: "1",
-    title: "Resources",
+    title: "Ressources",
     url: "/resources",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "/#how-to-use",
-  },
-  {
-    id: "3",
-    title: "Roadmap",
+    title: "Feuille de route",
     url: "/roadmap",
   },
   {
@@ -72,90 +62,93 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "/#signup",
+    title: "Nouveau compte",
+    url: "/newaccount",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "/#login",
+    title: "Se connecter",
+    url: "/signin",
     onlyMobile: true,
   },
 ];
 export const resources = [
   {
     id: "0",
-    title: "Introduction to Ecological Agriculture",
+    title: "Introduction à l'Agriculture Écologique",
     description:
-      "A comprehensive guide to understanding ecological agriculture principles.",
-    date: "June 2023",
+      "Un guide complet pour comprendre les principes de l'agriculture écologique.",
+    date: "Juin 2023",
     type: "document",
     url: "/path/to/document1.pdf",
   },
   {
     id: "1",
-    title: "Sustainable Farming Practices",
+    title: "Pratiques Agricoles Durables",
     description:
-      "Learn about various sustainable farming practices with this tutorial.",
-    date: "July 2023",
-    type: "tutorial",
+      "Apprenez les différentes pratiques agricoles durables avec ce tutoriel.",
+    date: "Juillet 2023",
+    type: "tutoriel",
     url: "https://example.com/tutorial1",
   },
   {
     id: "2",
-    title: "Soil Health and Management",
-    description: "An in-depth look at soil health and management techniques.",
-    date: "August 2023",
+    title: "Santé et Gestion du Sol",
+    description: "Une analyse approfondie de la santé et de la gestion du sol.",
+    date: "Août 2023",
     type: "document",
     url: "/path/to/document2.pdf",
   },
   {
     id: "3",
-    title: "Permaculture Basics",
-    description: "A tutorial on the basics of permaculture and its benefits.",
-    date: "September 2023",
-    type: "tutorial",
+    title: "Bases de la Permaculture",
+    description:
+      "Un tutoriel sur les bases de la permaculture et ses avantages.",
+    date: "Septembre 2023",
+    type: "tutoriel",
     url: "https://example.com/tutorial2",
   },
 ];
 export const forumTopics = [
   {
     id: "0",
-    title: "Best Practices for Sustainable Farming",
+    title: "Meilleures Pratiques pour l'Agriculture Durable",
     author: "Jane Doe",
-    date: "May 10, 2023",
+    date: "10 Mai 2023",
     content:
-      "What are some of the best practices for sustainable farming that you've implemented?",
+      "Quelles sont les meilleures pratiques pour l'agriculture durable que vous avez mises en œuvre ?",
     replies: [
       {
         id: "0-0",
         author: "John Smith",
-        date: "May 11, 2023",
+        date: "11 Mai 2023",
         content:
-          "I have found crop rotation and cover cropping to be very effective.",
+          "J'ai trouvé que la rotation des cultures et l'utilisation de cultures de couverture sont très efficaces.",
       },
       {
         id: "0-1",
         author: "Emily Johnson",
-        date: "May 12, 2023",
+        date: "12 Mai 2023",
         content:
-          "Using compost and organic fertilizers has greatly improved my soil quality.",
+          "L'utilisation de compost et d'engrais organiques a considérablement amélioré la qualité de mon sol.",
       },
     ],
   },
   {
     id: "1",
-    title: "Organic Pest Control Methods",
+    title: "Méthodes de Lutte Contre les Ravageurs Biologiques",
     author: "Michael Brown",
-    date: "May 15, 2023",
-    content: "Can anyone share some effective organic pest control methods?",
+    date: "15 Mai 2023",
+    content:
+      "Quelqu'un peut-il partager des méthodes efficaces de lutte biologique contre les ravageurs ?",
     replies: [
       {
         id: "1-0",
         author: "Anna Lee",
-        date: "May 16, 2023",
-        content: "I've had great success with neem oil and diatomaceous earth.",
+        date: "16 Mai 2023",
+        content:
+          "J'ai eu beaucoup de succès avec l'huile de neem et la terre de diatomée.",
       },
     ],
   },
@@ -167,9 +160,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Doucument Resources",
-  "Photo Resources",
-  "Seamless Integration",
+  "Ressources Documentaires",
+  "Ressources Photos",
+  "Intégration Transparente",
 ];
 
 export const brainwaveServicesIcons = [
@@ -183,55 +176,55 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Introduction à l’Agriculture Écologique",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Introduction à l'Agriculture Écologique",
+    text: "Permettre au chatbot de comprendre et de répondre aux commandes vocales, facilitant ainsi l'interaction des utilisateurs avec l'application mains libres.",
+    date: "Mai 2023",
+    status: "terminé",
     imageUrl: introductionagru,
     colorful: true,
     subpoints: [
       {
-        title: "Subpoint 1.1",
-        text: "Comprendre les principes de base : Introduction aux concepts clés de l’agriculture durable et écologique.",
+        title: "Sous-point 1.1",
+        text: "Comprendre les principes de base : Introduction aux concepts clés de l'agriculture durable et écologique.",
       },
       {
-        title: "Subpoint 1.2",
-        text: "Évaluation de la ferme actuelle : Analyse de l’état actuel de la ferme pour identifier les domaines d’amélioration.",
+        title: "Sous-point 1.2",
+        text: "Évaluation de la ferme actuelle : Analyse de l'état actuel de la ferme pour identifier les domaines d'amélioration.",
       },
     ],
   },
   {
     id: "1",
     title: "Planification et Conception",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    text: "Ajouter des éléments de jeu, tels que des badges ou des tableaux de classement, pour inciter les utilisateurs à interagir plus fréquemment avec le chatbot.",
+    date: "Mai 2023",
+    status: "en cours",
     imageUrl: planification,
     subpoints: [
       {
-        title: "Subpoint 2.1",
-        text: "Conception de l’écosystème : Planification de la disposition de la ferme pour optimiser l’utilisation des ressources naturelles.",
+        title: "Sous-point 2.1",
+        text: "Conception de l'écosystème : Planification de la disposition de la ferme pour optimiser l'utilisation des ressources naturelles.",
       },
       {
-        title: "Subpoint 2.2",
-        text: "IChoix des cultures et rotation : Sélection des cultures adaptées au climat et au sol, et planification de la rotation des cultures pour maintenir la santé du sol.",
+        title: "Sous-point 2.2",
+        text: "Choix des cultures et rotation : Sélection des cultures adaptées au climat et au sol, et planification de la rotation des cultures pour maintenir la santé du sol.",
       },
     ],
   },
   {
     id: "2",
     title: "Techniques de Culture Écologique",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    text: "Permettre aux utilisateurs de personnaliser l'apparence et le comportement du chatbot, le rendant ainsi plus engageant et amusant à utiliser.",
+    date: "Mai 2023",
+    status: "terminé",
     imageUrl: technique,
     subpoints: [
       {
-        title: "Subpoint 3.1",
-        text: "Gestion de l’eau : Techniques de conservation de l’eau et irrigation efficace.",
+        title: "Sous-point 3.1",
+        text: "Gestion de l'eau : Techniques de conservation de l'eau et irrigation efficace.",
       },
       {
-        title: "Subpoint 3.2",
+        title: "Sous-point 3.2",
         text: "Contrôle naturel des nuisibles : Utilisation de méthodes biologiques pour gérer les parasites et les maladies.",
       },
     ],
@@ -239,53 +232,53 @@ export const roadmap = [
   {
     id: "3",
     title: "Fertilisation et Compostage",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    text: "Permettre au chatbot d'accéder à des sources de données externes, telles que les API météo ou les API de nouvelles, pour fournir des recommandations plus pertinentes.",
+    date: "Mai 2023",
+    status: "en cours",
     imageUrl: fertilisation,
     subpoints: [
       {
-        title: "Subpoint 4.1",
+        title: "Sous-point 4.1",
         text: "Compostage : Création et utilisation de compost pour enrichir le sol.",
       },
       {
-        title: "Subpoint 4.2",
-        text: "Fertilisation organique : Utilisation d’engrais naturels pour nourrir les plantes.",
+        title: "Sous-point 4.2",
+        text: "Fertilisation organique : Utilisation d'engrais naturels pour nourrir les plantes.",
       },
     ],
   },
   {
     id: "4",
     title: "Récolte et Gestion Post-Récolte",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    text: "Permettre au chatbot d'accéder à des sources de données externes, telles que les API météo ou les API de nouvelles, pour fournir des recommandations plus pertinentes.",
+    date: "Mai 2023",
+    status: "en cours",
     imageUrl: recolte,
     subpoints: [
       {
-        title: "Subpoint 5.1",
-        text: "Récolte durable : Techniques de récolte qui minimisent les dommages à l’environnement.",
+        title: "Sous-point 5.1",
+        text: "Récolte durable : Techniques de récolte qui minimisent les dommages à l'environnement.",
       },
       {
-        title: "Subpoint 5.2",
+        title: "Sous-point 5.2",
         text: "Stockage et conservation : Méthodes pour conserver les récoltes sans utiliser de produits chimiques.",
       },
     ],
   },
   {
     id: "5",
-    title: "RCommercialisation et Vente",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "Commercialisation et Vente",
+    text: "Permettre au chatbot d'accéder à des sources de données externes, telles que les API météo ou les API de nouvelles, pour fournir des recommandations plus pertinentes.",
+    date: "Mai 2023",
+    status: "en cours",
     imageUrl: rcommercialisation,
     subpoints: [
       {
-        title: "Subpoint 6.1",
+        title: "Sous-point 6.1",
         text: "Marchés locaux : Accès aux marchés locaux pour vendre les produits.",
       },
       {
-        title: "Subpoint 6.2",
+        title: "Sous-point 6.2",
         text: "Certifications écologiques : Obtention de certifications pour augmenter la valeur des produits.",
       },
     ],
@@ -293,57 +286,57 @@ export const roadmap = [
   {
     id: "6",
     title: "Expansion et Diversification",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    text: "Permettre au chatbot d'accéder à des sources de données externes, telles que les API météo ou les API de nouvelles, pour fournir des recommandations plus pertinentes.",
+    date: "Mai 2023",
+    status: "en cours",
     imageUrl: expansion,
     subpoints: [
       {
-        title: "Subpoint 7.1",
+        title: "Sous-point 7.1",
         text: "Ajout de nouvelles cultures : Introduction de nouvelles cultures ou produits pour diversifier.",
       },
       {
-        title: "Subpoint 7.2",
-        text: "Agriculture communautaire : Collaboration avec d’autres fermes pour renforcer la communauté agricole locale.",
+        title: "Sous-point 7.2",
+        text: "Agriculture communautaire : Collaboration avec d'autres fermes pour renforcer la communauté agricole locale.",
       },
     ],
   },
   {
     id: "7",
     title: "Évaluation et Amélioration Continue",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    text: "Permettre au chatbot d'accéder à des sources de données externes, telles que les API météo ou les API de nouvelles, pour fournir des recommandations plus pertinentes.",
+    date: "Mai 2023",
+    status: "en cours",
     imageUrl: amelioration,
     subpoints: [
       {
-        title: "Subpoint 8.1",
+        title: "Sous-point 8.1",
         text: "Amélioration continue : Adaptation et amélioration des pratiques en fonction des résultats obtenus.",
       },
       {
-        title: "Subpoint 8.2",
-        text: "Suivi des résultats : Utilisation d’indicateurs pour évaluer les performances de la ferme.",
+        title: "Sous-point 8.2",
+        text: "Suivi des résultats : Utilisation d'indicateurs pour évaluer les performances de la ferme.",
       },
     ],
   },
 ];
 
 export const collabText =
-  "With smart display  and top-notch tutorials ,GreenEco the best platform for farmers to learn and grow.";
+  "Avec un affichage intelligent et des tutoriels de premier ordre, GreenEco est la meilleure plateforme pour les agriculteurs pour apprendre et se développer.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Intégration Transparente",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Automatisation Intelligente",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Sécurité de Haut Niveau",
   },
 ];
 
@@ -409,35 +402,36 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Basique",
+    description: "Chatbot IA, recommandations personnalisées",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Un chatbot IA qui peut comprendre vos requêtes",
+      "Recommandations personnalisées en fonction de vos préférences",
+      "Possibilité d'explorer l'application et ses fonctionnalités sans frais",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    description:
+      "Chatbot IA avancé, support prioritaire, tableau de bord analytique",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Un chatbot IA avancé qui peut comprendre des requêtes complexes",
+      "Un tableau de bord analytique pour suivre vos conversations",
+      "Support prioritaire pour résoudre rapidement les problèmes",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Entreprise",
+    description: "Chatbot IA personnalisé, analyses avancées, compte dédié",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Un chatbot IA qui peut comprendre vos requêtes",
+      "Recommandations personnalisées en fonction de vos préférences",
+      "Possibilité d'explorer l'application et ses fonctionnalités sans frais",
     ],
   },
 ];
@@ -445,16 +439,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Demandez n'importe quoi",
+    text: "Permet aux utilisateurs de trouver rapidement des réponses à leurs questions sans avoir à rechercher à travers de multiples sources.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "Our Website provide every new studys about how to make your land ecological so our users can farm safe and preduce more and healthy crops.",
+    title: "Améliorez-vous chaque jour",
+    text: "Notre site Web fournit de nouvelles études sur la manière de rendre votre terre écologique afin que nos utilisateurs puissent cultiver en toute sécurité et produire des cultures plus saines.",
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -462,16 +456,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with our website from anywhere, on any device, making it more accessible and convenient.",
+    title: "Connectez-vous partout",
+    text: "Connectez-vous à notre site Web de n'importe où, sur n'importe quel appareil, le rendant ainsi plus accessible et pratique.",
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Réponse rapide",
+    text: "Permet aux utilisateurs de trouver rapidement des réponses à leurs questions sans avoir à rechercher à travers de multiples sources.",
     backgroundUrl: "assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -479,16 +473,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Search anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Rechercher n'importe quoi",
+    text: "Permet aux utilisateurs de trouver rapidement des réponses à leurs questions sans avoir à rechercher à travers de multiples sources.",
     backgroundUrl: "assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Reliability and Credibility",
-    text: "Our Website provide very reliable and credible information about how to make your land ecological.every source of information is verified",
+    title: "Fiabilité et Crédibilité",
+    text: "Notre site Web fournit des informations très fiables et crédibles sur la manière de rendre votre terre écologique. Chaque source d'information est vérifiée.",
     backgroundUrl: "assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

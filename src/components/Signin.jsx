@@ -7,7 +7,7 @@ const SignIn = () => {
   return (
     <Section className="overflow-hidden" id="sign-in">
       <div className="container md:pb-10">
-        <Heading tag="Welcome Back!" title="Sign in to Your Account" />
+        <Heading tag="Bienvenue !" title="Connectez-vous à votre compte" />
         <div className="flex flex-col items-center mt-12 md:mt-15 xl:mt-20">
           <form className="w-full max-w-sm">
             <div className="mb-4">
@@ -29,7 +29,7 @@ const SignIn = () => {
                 className="block text-n-8 text-sm font-bold mb-2"
                 htmlFor="password"
               >
-                Password
+                Mot de passe
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-n-8 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -40,17 +40,17 @@ const SignIn = () => {
             </div>
             <div className="flex items-center justify-between mb-4">
               <Button className="px-4 py-2" href="#">
-                Sign In
+                Se connecter
               </Button>
               <a
                 className="inline-block align-baseline font-bold text-sm text-n-6 hover:text-n-8"
                 href="#"
               >
-                Forgot Password?
+                Mot de passe oublié ?
               </a>
             </div>
             <div className="flex items-center justify-center">
-              <p className="text-n-8">Or sign in using:</p>
+              <p className="text-n-8">Ou connectez-vous avec :</p>
               <Button className="mx-2" href="#">
                 Google
               </Button>

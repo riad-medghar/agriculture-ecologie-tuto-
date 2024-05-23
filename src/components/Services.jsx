@@ -24,8 +24,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Website made for Making farms better."
-          text="GreenEco unlocks the potential of Your land"
+          title="Un site Web conçu pour améliorer les fermes."
+          text="GreenEco libère le potentiel de votre terre"
         />
 
         <div className="relative">
@@ -34,17 +34,17 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="AI intelligent"
                 height={730}
                 src={agruinfo}
               />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smoothest Experience</h4>
+              <h4 className="h4 mb-4">Expérience la plus fluide</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                GreenEco Provides the best and Smoothest Experience to learn and
-                search about agriculture.
+                GreenEco offre la meilleure et la plus fluide expérience pour
+                apprendre et rechercher sur l'agriculture.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -75,11 +75,11 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Documtnation and exploring</h4>
+                <h4 className="h4 mb-4">Documentation et exploration</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Explore Documents about subject that intrests you and learn
-                  about it. Join the community and learn from the best and share
-                  your opinion.
+                  Explorez des documents sur des sujets qui vous intéressent et
+                  apprenez-en davantage. Rejoignez la communauté et apprenez des
+                  meilleurs tout en partageant votre opinion.
                 </p>
               </div>
 
@@ -88,10 +88,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video Tutorials</h4>
+                <h4 className="h4 mb-4">Tutoriels vidéo</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s Best Website to provide video tutorials and
-                  instructions. What will you Learn?
+                  Le meilleur site Web au monde pour fournir des tutoriels vidéo
+                  et des instructions. Que allez-vous apprendre?
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -124,7 +124,7 @@ const Services = () => {
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
-                  alt="Scary robot"
+                  alt="robot effrayant"
                 />
 
                 <VideoChatMessage />
